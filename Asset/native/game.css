@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../img/776739.jpg);
+    background-size: cover;
+}
+
+.kotak1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.kotak2{
+    width: 700px;
+    height: 250px;
+    background-color: rgba(201, 204, 204, .8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(105, 153, 153)
+}
+
+.username{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 5%;
+    left: 3%;
+
+}
+
+#color{
+    position: relative;
+    top: 14%;
+    left: 8%;
+    height: 35px;
+    width: 100px;
+}
+
+.pilih{
+    position: relative;
+    top: 11%;
+    left: 3%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#logout{
+    position: relative;
+    top: 48%;
+    left: -35%;
+    width: 120px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#start{
+    position: relative;
+    top: 48%;
+    left: 25.7%;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.judul{
+    position: relative;
+    top: 50%;
+    left: 24%;
+    color: rgb(111, 142, 226);
+    -webkit-text-stroke: 1px rgb(61, 46, 197);
+}
+
+canvas{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/776750.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(105, 153, 153);
+    border:1px solid rgb(84, 57, 204);
+}
+
+#exit{
+    position: absolute;
+    bottom: 15%;
+    left: 71%;
+}
+
+#coba{
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+}
+
+.username2{
+    position: absolute;
+    top: 3%;
+    left: 25%;
+    font-weight: 500;
+    font-size: 1.2em;
+}
